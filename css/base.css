@@ -1,0 +1,50 @@
+/*重置css样式*/
+*{
+    box-sizing: border-box;
+}
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dd,dt,input,form,fieldset{
+    margin:0;
+    padding:0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,b,em,strong{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+img{
+    width:100%;
+    display: block;
+    border:none;
+}
+input,textarea{
+    outline: none;
+}
+
+/*公共css样式*/
+.fl{
+    float: left;
+}
+.fr{
+    float:right;
+}
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.clearfix{
+    zoom: 1;
+}
+
+[class^="icon_"]{
+    background: url(../img/sprites.png) no-repeat;
+    background-size:180px;
+
+}
